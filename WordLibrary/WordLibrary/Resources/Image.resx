@@ -121,4 +121,16 @@
   <data name="cd13" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>cd13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="_01_soleil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>01_soleil.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_02_nuage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>02_nuage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_03_pluie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>03_pluie.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_04_orage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>04_orage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

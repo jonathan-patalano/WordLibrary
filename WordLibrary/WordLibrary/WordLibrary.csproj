@@ -76,7 +76,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <None Include="Resources\SHP_Template impression_V1.2.docx" />
+    <None Include="Resources\SHP_Template impression_V1.3.docx" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Resources\Image.resx">
@@ -92,7 +92,21 @@
   <ItemGroup>
     <None Include="Resources\cd13.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\01-soleil.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\01_soleil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\02_nuage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\03_pluie.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\04_orage.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
