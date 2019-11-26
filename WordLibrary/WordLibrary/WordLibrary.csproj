@@ -73,6 +73,7 @@
       <DependentUpon>Template.resx</DependentUpon>
     </Compile>
     <Compile Include="TableWord\TableWord.cs" />
+    <Compile Include="WordHelper.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
