@@ -1,6 +1,6 @@
 ﻿using Xceed.Words.NET;
 
-namespace WordLibrary.Bookmark
+namespace WordLibrary
 {
     public static class BookmarkWord
     {
