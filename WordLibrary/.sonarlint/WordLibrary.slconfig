@@ -1,0 +1,11 @@
+{
+  "ServerUri": "http://lmarccdkcd1301.ptx.fr.sopra:10006/",
+  "Organization": null,
+  "ProjectKey": "SHP",
+  "Profiles": {
+    "CSharp": {
+      "ProfileKey": "AV15B07BvM89NC7aBMu0",
+      "ProfileTimestamp": "2018-01-30T14:21:01+01:00"
+    }
+  }
+}

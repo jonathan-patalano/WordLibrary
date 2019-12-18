@@ -1,12 +1,13 @@
-﻿using System;
+﻿using CG13.Infrastructure.CrossCutting.Template;
+using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.IO;
 using System.Text;
-using WordLibrary.Interface;
+using Xceed.Document.NET;
 using Xceed.Words.NET;
 
-namespace WordLibrary.Abstract
+namespace WordLibrary
 {
     public abstract class AbstractTemplateEngine : ITemplateEngine
     {
@@ -58,7 +59,7 @@ namespace WordLibrary.Abstract
         {
             using (var ms = new MemoryStream(byteArrayIn))
             {
-                Xceed.Words.NET.Image image = templateDoc.AddImage(ms);
+                Xceed.Document.NET.Image image = templateDoc.AddImage(ms);
                 Picture picture = image.CreatePicture();
                 if ((picture.Width > templateDoc.PageWidth || picture.Height > templateDoc.PageHeight) && picture.Width >= picture.Height)
                 {

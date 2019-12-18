@@ -1,11 +1,11 @@
-﻿using System;
+﻿using CG13.Infrastructure.CrossCutting.NetFramework.Template;
+using System;
 using System.IO;
-using WordLibrary.Abstract;
-using WordLibrary.Formatter;
 
 namespace WordLibrary
 {
     public class FileTemplate : AbstractTemplate
+
     {
         string _path;
 

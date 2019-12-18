@@ -63,9 +63,9 @@ namespace WordLibrary.Resources {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Byte[].
         /// </summary>
-        internal static byte[] SHP_Template_impression_V1_2 {
+        internal static byte[] SHP_Template_impression_V1_3 {
             get {
-                object obj = ResourceManager.GetObject("SHP_Template_impression_V1_2", resourceCulture);
+                object obj = ResourceManager.GetObject("SHP_Template_impression_V1_3", resourceCulture);
                 return ((byte[])(obj));
             }
         }

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Globalization;
 
-namespace WordLibrary.Formatter
+namespace WordLibrary
 {
     class DefaultFormatter : ICustomFormatter, IFormatProvider
     {
@@ -38,6 +38,7 @@ namespace WordLibrary.Formatter
             return HandleOtherFormats(format, arg);
         }
 
+
         private string HandleOtherFormats(string format, object arg)
         {
             if (arg is IFormattable)
@@ -47,6 +48,7 @@ namespace WordLibrary.Formatter
             else
                 return String.Empty;
         }
+
 
     }
 }
